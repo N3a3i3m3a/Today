@@ -1,0 +1,205 @@
+  *{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.menu{
+    background-color: white;
+    position: fixed;
+    height:50px;
+    width: 100%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0px;
+    position: relative;
+}
+
+
+nav ul li {
+    position: absolute;
+}
+
+nav ul li:nth-child(1) {
+    left: 40px;
+}
+
+nav ul li:nth-child(2) {
+    left: 70%;
+}
+
+nav ul li:nth-child(3) {
+    left: 80%;
+}
+
+nav ul li:nth-child(4) {
+    left: 90%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:none;
+    font-size: 18px;
+}
+
+
+a{
+    text-decoration: none ;
+    color: black;
+    text-align: center;
+}
+#Mylogo{
+    background-image: url("Architectimage.jpg");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+    
+}
+.BR span{
+    background-color: rgb(106, 96, 96);
+}
+.BR{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    font-size: 40px;
+
+}
+h2{
+    font-weight: 80;
+    margin-bottom: 20px;
+}
+
+h4{
+    padding: 5px;
+    color: white;
+    background-color: black;
+    position: absolute;
+}
+
+.Project1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+     flex-direction: row;
+     gap:15px;
+     padding-bottom: 10px;
+     padding-top: 20px;
+}
+.Project2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+     flex-direction: row;
+     gap:10px;
+     margin-bottom: 60px;
+}
+.Project1 div{
+    width: 24.5%;
+    height:15em;
+}
+.Project2 div{
+    width: 24%;
+    height:15em;
+}
+
+.Summer-house{
+    background-image:url("Summer\ house.jpg");
+}
+.Brick-house{
+    background-image:url("Brick\ house.jpg") ;
+}
+.Renovated{
+    background-image: url("Renovated.jpg");
+}
+.Barn-house{
+    background-image: url("Barn\ house.jpg");
+}
+.Summer{
+    background-image: url("Brick.jpg");
+}
+.Brick{
+    background-image:url("Summer.jpg");
+}
+.Renov{
+    background-image: url("Barn.jpg");
+}
+.Barn{
+    background-image: url("Renov.jpg");
+}
+#About{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:20px;
+    width: 100%;
+}
+#About div{
+    width:24.5%;
+ 
+}
+#About a{
+    background-color:rgb(182, 170, 170);
+    width: 100%;
+}
+.CEO{
+    background-image: url("John\ Doe.jpg");
+    background-repeat: no-repeat;
+
+}
+.Jane{
+    background-image: url("Jane\ Doe.jpg");
+    background-repeat: no-repeat;
+}
+.Mike{
+    background-image: url("Mike\ Ross.jpg");
+    background-repeat: no-repeat;
+}
+.Dan{
+    background-image: url("Dan\ star.jpg");
+    background-repeat: no-repeat;
+}
+.description{
+    padding-top: 23em;
+    position: relative;
+}
+.responsibility{
+    color: rgb(84, 75, 75);
+}
+ .location{
+    background-image: url("Location.jpg");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+.Name, .Email, .Subject, .Message{
+    margin-bottom: 15px;
+}
+
+.input-field{
+    width: 100%;
+    height: 30px;
+    margin-left: 0;
+
+}
+button{
+    background-color: black;
+    width:100px;
+    color:white;
+    
+}
+.Container{
+    max-width: 1490px;
+    padding-left: 20px;
+}
+
+
